@@ -1,7 +1,7 @@
 h1 {
 Font-Family: 'Roboto', Sans-Serif;
 Font-Size: 48px;
-margin: 30px 70px;   
+margin: 50px;
 }
 
 h2 {
@@ -9,7 +9,7 @@ Font-Family: 'Roboto', Sans-Serif;
 Font-Size: 32px;
 text-transform: uppercase;
 font-weight: lighter;
-margin: 10px 0px;
+margin: 10px 20px;
 padding: 20px 0px;
 }
 h3 {
@@ -17,12 +17,18 @@ padding-bottom: 15px;
 padding-top: 15px;
 text-decoration: underline;
 font-size: 24px;
+margin-left: 20px;
 }
 p {
 Font-Family: 'Lora', Serif;
 Font-Size: 16px;
 line-height: 2;
 letter-spacing: 2;
+margin-left: 20px;
+}
+.right, .left {
+    float: left;
+    width:50%;
 }
 .roboto {
     font-family: 'Roboto', Sans-Serif;
@@ -49,31 +55,32 @@ letter-spacing: 2;
     font-weight: normal;
     font-style: italic;
 }
-.left-container {
-    width: 500px;
+.container {
+    width: auto;
     margin: 20px 50px;
-    padding: 20px;
     border: solid 2px #F0CF60;
+    padding-bottom: 10px;
+    vertical-align: top;
 }
 .colors-container {
 display: inline-block;
 width: 500px;
 height: 120px;
-margin-inline-start: 0px;
-margin-inline-end: 0px;
-margin: 30px auto;
+margin: 30px 0px;
+padding-bottom: 30px;
 }
 .color-swatch {
 border-radius: 100%;
 height: 80px;
 width: 80px;
 display: inline-block;
-margin: 0px 10px;
+margin: 0px 20px;
 }
 .color-hex {
     width: 80px;
     margin-top: 100px;
     margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 #black {
@@ -87,4 +94,44 @@ margin: 0px 10px;
 }
 #orange {
     background-color: #D56A3C;
+    color: black;
+    font-weight: 600;
+}
+.heading-style {
+    margin: 0px 20px;
+    padding-bottom: 0px;
+}
+ul {
+    list-style-type: square;
+    font-family: 'Lora';
+    line-height: 20px;
+    padding-left: 10px;
+    margin: 20px;
+}
+
+button {
+    background-color: #202127;
+    color: white;
+    Font-Family: 'Roboto';
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.link {
+    margin: 20px;
+}
+#link {
+    color: #334074;
+    text-decoration: underline;
+}
+#activelink {
+    color: #334074;
+    text-decoration: none;
 }

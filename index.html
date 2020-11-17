@@ -9,10 +9,12 @@
     <link href="https://fonts.googleapis.com/css?family=Lora|Roboto:400,700" rel="stylesheet">
 </head>
 <body>
-    <h1>Artist website styleguide</h1>
-    <div class="left-container">
+    <h1>Website styleguide</h1>
+    <div>
+<div class="right">
+        <div class="container">
         <h2>Colors</h2>
-        <div class="colors-container">
+    <div class="colors-container">
         <div class="color-swatch" id="black">
         <p class="color-hex">#202127</p>
         </div>   
@@ -20,31 +22,63 @@
         <p class="color-hex">#334074</p>
         </div>
         <div class="color-swatch" id="yellow">
-        <p class="color-hex">#F0CF60</p>     
+        <p class="color-hex">#F0CF60</p>
+        </div>     
+        <div class="color-swatch" id="orange">
+        <p class="color-hex">#D56A3C</p>  
+        </div> 
+    </div>  
     </div>
-    <div class="color-swatch" id="orange">
-        <p class="color-hex">#D56A3C</p>     
-    </div>
-    <h2>Fonts</h2>
-    <div class="fonts-container">
-        <h3 class="roboto">Roboto</h3>
-        <p class="roboto">Blackbird singing in the dead of night</p>
-        <p class="roboto-bold">Blackbird singing in the dead of night</p>
-        <p class="roboto-italic">Blackbird singing in the dead of night</p>
-        <h3 class="lora">Lora</h3>
-        <p class="lora">Take these broken wings and learn to fly</p>
-        <p class="lora-bold">Take these broken wings and learn to fly</p>
-        <p class="lora-italic">Take these broken wings and learn to fly</p>
-    </div>
-</div>
-    <div class="right-container">
+    <div class="container">
         <h2>Text styles</h2>
         <div class="text-styles-container">
+            <h1 class="heading-style">H1: Main page heading</h1>
+            <ul>
+                <li>Font: Roboto</li>
+                <li>Font weight: bold</li>
+                <li>Font size: 48px</li>
+            </ul>
+            <h2 class="heading-style">H2: Subheadings</h2>
+            <ul>
+                <li>Font: Roboto</li>
+                <li>Font weight: lighter</li>
+                <li>Font size: 32px</li>
+            </ul>
+            <p class="heading-style">P: paragraph text</p>
+            <ul>
+                <li>Font: Lora</li>
+                <li>Font weight: normal</li>
+                <li>Font size: 16px</li>
+            </ul>
         </div>
     </div>
-    <div class="right-container">
-        <h2>Buttons</h2>
-        <div class="buttons-container"></div>
+</div>
+<div class="left">
+    <div class="container">
+        <h2>Fonts</h2>
+        <div class="fonts-container">
+            <h3 class="roboto">Roboto</h3>
+            <p class="roboto">Blackbird singing in the dead of night</p>
+            <p class="roboto-bold">Blackbird singing in the dead of night</p>
+            <p class="roboto-italic">Blackbird singing in the dead of night</p>
+            <h3 class="lora">Lora</h3>
+            <p class="lora">Take these broken wings and learn to fly</p>
+            <p class="lora-bold">Take these broken wings and learn to fly</p>
+            <p class="lora-italic">Take these broken wings and learn to fly</p>
+        </div>
     </div>
+    <div class="container">
+        <h2>Buttons and Links</h2>
+        <div class="buttons-container">
+            <button type="button">Buy</button>
+        </div>
+        <div class="buttons-container">
+            <button id="orange" type="button">Buy</button>
+        </div>
+        <div class="link">
+            <p id="link">Link</p>
+            <p id="activelink">Active link</p>
+        </div>
+</div>
 </body>
 </html>
